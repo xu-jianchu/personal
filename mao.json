@@ -1122,7 +1122,7 @@
     "wasu",
     "bilibili"
   ],
-"spider": "https://raw.githubusercontent.com/xu-jianchu/personal/main/custom_spider.jar",
+"spider": "https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
 "parses": [
     {
     "name": "Json并发",
