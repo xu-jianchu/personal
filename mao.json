@@ -1122,7 +1122,7 @@
     "wasu",
     "bilibili"
   ],
-"spider": "https://gitee.com/daji888/maoys/raw/master/custom_spider.jar;md5;e90c1f80ce54464c0996e3688b5f1ae8",
+"spider": "https://raw.githubusercontent.com/xu-jianchu/personal/main/custom_spider.jar",
 "parses": [
     {
     "name": "Json并发",
