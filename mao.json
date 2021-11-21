@@ -34,24 +34,6 @@
   "api": "csp_N0ys",
   "searchable": 1,
   "quickSearch": 0,
-  "filterable": 0
-},
-{
-    "key": "csp_Nekk",
-    "name": "9E看看(爬虫)",
-    "type": 3,
-    "api": "csp_Nekk",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1
-},
-{
-  "key": "csp_Buka",
-  "name": "真不卡(爬虫)",
-  "type": 3,
-  "api": "csp_Buka",
-  "searchable": 0,
-  "quickSearch": 0,
   "filterable": 1
 },
 {
@@ -62,6 +44,15 @@
   "searchable": 1,
   "quickSearch": 0,
   "filterable": 1
+},
+{
+    "key": "csp_Nekk",
+    "name": "9E看看(爬虫)",
+    "type": 3,
+    "api": "csp_Nekk",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1
 },
 {
     "key": "csp_Djx",
@@ -82,6 +73,15 @@
     "filterable": 1
 },  
 {
+  "key": "csp_Buka",
+  "name": "真不卡(爬虫)",
+  "type": 3,
+  "api": "csp_Buka",
+  "searchable": 0,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
     "key": "csp_Jumi",
     "name": "剧迷(爬虫)",
     "type": 3,
@@ -95,6 +95,15 @@
     "name": "枫林网(爬虫)",
     "type": 3,
     "api": "csp_Imaple",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1
+  },
+{
+    "key": "csp_Juhi",
+    "name": "剧嗨(爬虫)",
+    "type": 3,
+    "api": "csp_Juhi",
     "searchable": 1,
     "quickSearch": 0,
     "filterable": 1
@@ -127,7 +136,7 @@
      "searchable": 1,
      "quickSearch": 1,
      "filterable": 0,
-     "ext": "https://cdn.jsdelivr.net/gh/catvod/CatVodTVSpider@master/xpath/555.json"
+     "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/555.json"
 },
 {
     "key": "csp_xpath_jpys",
@@ -149,7 +158,46 @@
      "filterable": 0,
      "ext":"https://cdn.jsdelivr.net/gh/Tangsan99999/CatVodTVSpider@master/xpath/miniku.json"
 },
-
+{
+    "key": "csp_xpath_aixixi",
+    "name": "爱西西影视(XPath)",
+    "type": 3,
+    "api": "csp_XPath",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 0,
+    "ext": "https://cdn.jsdelivr.net/gh/Tangsan99999/Public@main/xpath/aixixi.json"
+},
+{
+    "key": "csp_xpath_vipmv",
+    "name": "追剧达人(XPath)",
+    "type": 3,
+    "api": "csp_XPath",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 0,
+    "ext": "https://cdn.jsdelivr.net/gh/Tangsan99999/Public@main/xpath/vipmv.json"
+},
+{
+    "key": "csp_xpath_fantuan",
+    "name": "饭团影院(XPath)",
+    "type": 3,
+    "api": "csp_XPath",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 0,
+    "ext": "https://cdn.jsdelivr.net/gh/Tangsan99999/Public@main/xpath/fantuan.json"
+},
+{
+    "key": "csp_xpath_xkys",
+    "name": "星空影视(XPath)",
+    "type": 3,
+    "api": "csp_XPath",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 0,
+    "ext": "https://cdn.jsdelivr.net/gh/Tangsan99999/Public@main/xpath/xkys.json"
+},
 {
     "key": "csp_yysdali",
     "name": "YYDS影视(XPath)",
@@ -160,7 +208,6 @@
     "filterable": 0,
     "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/yyds.json"
 },
-
 {
     "key": "csp_xpath_94sm",
     "name": "94神马(XPath)",
@@ -232,6 +279,56 @@
     "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/duboku.json"
 },
 {
+     "key": "csp_xpath_sky4k",
+     "name": "天空4K(XPath)",
+     "type": 3,
+     "api": "csp_XPath",
+     "searchable": 1,
+     "quickSearch": 1,
+     "filterable": 0,
+     "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/sky4k.json"
+},
+{
+     "key": "csp_xpath_lezhutv",
+     "name": "乐猪TV(XPath)",
+     "type": 3,
+     "api": "csp_XPath",
+     "searchable": 1,
+     "quickSearch": 1,
+     "filterable": 0,
+     "ext": "https://cdn.jsdelivr.net/gh/Tangsan99999/CatVodTVSpider@master/xpath/lezhutv.json"
+},
+{
+     "key": "csp_xpath_gimytv",
+     "name": "剧迷影音(XPath)",
+     "type": 3,
+     "api": "csp_XPath",
+     "searchable": 1,
+     "quickSearch": 1,
+     "filterable": 0,
+     "ext": "https://cdn.jsdelivr.net/gh/Tangsan99999/CatVodTVSpider@master/xpath/gimytv.json"
+},
+{
+     "key": "csp_xpath_newfli",
+     "name": "奈落影院(XPath)",
+     "type": 3,
+     "api": "csp_XPath",
+     "searchable": 1,
+     "quickSearch": 1,
+     "filterable": 0,
+     "ext": "https://gitee.com/daji888/maoys/raw/master/xpath/newfli.json"
+},
+{
+     "key": "csp_xpath_onedianshi",
+     "name": "ONE蓝光影院(XPath)",
+     "type": 3,
+     "api": "csp_XPath",
+     "searchable": 1,
+     "quickSearch": 1,
+     "filterable": 0,
+     "ext": "https://cdn.jsdelivr.net/gh/Tangsan99999/CatVodTVSpider@master/xpath/onedianshi.json"
+},
+{
      "key": "csp_xpath_dm84",
      "name": "动漫巴士(XPath)",
      "type": 3,
@@ -242,16 +339,6 @@
      "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/dm84.json"
 },
 {
-     "key": "csp_xpath_4kyu",
-     "name": "一只鱼4K(XPath)",
-     "type": 3,
-     "api": "csp_XPath",
-     "searchable": 1,
-     "quickSearch": 1,
-     "filterable": 0,
-     "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/4kyu.json"
-},
-{
     "key": "csp_xpath_age",
     "name": "AGE动漫(XPath)",
     "type": 3,
@@ -260,6 +347,26 @@
     "quickSearch": 1,
     "filterable": 0,
     "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/agefans.json"
+},
+{
+     "key": "csp_xpath_yinghua",
+     "name": "樱花动漫(XPath)",
+     "type": 3,
+     "api": "csp_XPath",
+     "searchable": 1,
+     "quickSearch": 1,
+     "filterable": 0,
+     "ext": "https://cdn.jsdelivr.net/gh/Tangsan99999/CatVodTVSpider@master/xpath/yinghua.json"
+},
+{
+     "key": "csp_xpath_4kyu",
+     "name": "一只鱼4K(XPath)",
+     "type": 3,
+     "api": "csp_XPath",
+     "searchable": 1,
+     "quickSearch": 1,
+     "filterable": 0,
+     "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/4kyu.json"
 },
 {
     "key": "csp_xpath_cjt",
@@ -281,16 +388,7 @@
      "filterable": 0,
      "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/saohuotv2.json"
 },
-{
-     "key": "csp_xpath_sky4k",
-     "name": "天空4K(XPath)",
-     "type": 3,
-     "api": "csp_XPath",
-     "searchable": 1,
-     "quickSearch": 1,
-     "filterable": 0,
-     "ext": "https://cdn.jsdelivr.net/gh/catvod/CatVodTVSpider@master/xpath/sky4k.json"
-},
+
 
 {
      "key":"csp_xpath_Ole",
@@ -302,6 +400,74 @@
      "filterable": 0,
      "ext":"https://cdn.jsdelivr.net/gh/Tangsan99999/CatVodTVSpider@master/xpath/olevod.json"
 },
+{
+     "key": "csp_xpath_bde4",
+     "name": "哔嘀影视(XPath)",
+     "type": 3,
+     "api": "csp_XPath",
+     "searchable": 1,
+     "quickSearch": 1,
+     "filterable": 0,
+     "ext": "https://cdn.jsdelivr.net/gh/Tangsan99999/CatVodTVSpider@master/xpath/bde4.json"
+},
+
+{"key":"csp_appys_xiaogui_one影视", "name":"one影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_one影视"},
+
+
+
+{"key":"csp_appys_xiaogui_迪迪影院", "name":"迪迪影院(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_迪迪影院"},
+
+{"key":"csp_appys_xiaogui_毒舌电影", "name":"毒舌电影(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_毒舌电影"},
+
+{"key":"csp_appys_xiaogui_大师兄", "name":"大师兄(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_大师兄"},
+
+
+{"key":"csp_appys_xiaogui_火箭影视", "name":"火箭影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_火箭影视"},
+{"key":"csp_appys_xiaogui_海绵影视", "name":"海绵影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_海绵影视"},
+
+{"key":"csp_appys_xiaogui_抹茶猪", "name":"抹茶猪(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_抹茶猪"},
+{"key":"csp_appys_xiaogui_神马影院", "name":"神马影院(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_神马影院"},
+{"key":"csp_appys_xiaogui_双十电影", "name":"双十电影(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_双十电影"},
+
+{"key":"csp_appys_xiaogui_天空影视", "name":"天空影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_天空影视"},
+{"key":"csp_appys_xiaogui_糖果影视", "name":"糖果影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_糖果影视"},
+
+
+{"key":"csp_appys_xiaogui_雪人影视", "name":"雪人影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_雪人影视"},
+
+
+{"key":"csp_appys_xiaogui_追剧达人", "name":"追剧达人(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"xiaogui_追剧达人"},
+
+{"key":"csp_appys_v1_80K影视", "name":"80K影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_80K影视"},
+
+
+
+{"key":"csp_appys_v1_艾特影视", "name":"艾特影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_艾特影视"},
+
+
+{"key":"csp_appys_v1_初心影视", "name":"初心影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_初心影视"},
+
+
+{"key":"csp_appys_v1_二狗电影", "name":"二狗电影(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_二狗电影"},
+{"key":"csp_appys_v1_饭后电影", "name":"饭后电影(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_饭后电影"},
+
+{"key":"csp_appys_v1_疯狂看", "name":"疯狂看(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_疯狂看"},
+
+
+{"key":"csp_appys_v1_乐看视频", "name":"乐看视频(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_乐看视频"},
+
+{"key":"csp_appys_v1_喵乐影视", "name":"喵乐影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_喵乐影视"},
+
+{"key":"csp_appys_v1_南府影视", "name":"南府影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_南府影视"},
+
+{"key":"csp_appys_v1_手指影视", "name":"手指影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_手指影视"},
+
+
+
+{"key":"csp_appys_iptv_核桃影视", "name":"核桃影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"iptv_核桃影视"},
+{"key":"csp_appys_iptv_凌雪影视", "name":"凌雪影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"iptv_凌雪影视"},
+{"key":"csp_appys_iptv_冷月TV", "name":"冷月TV(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"iptv_冷月TV"},
+
 {
       "key": "人人迷",
       "name": "人人迷",
@@ -329,31 +495,102 @@
       "key": "喵派对蓝光",
       "name": "喵派对蓝光",
       "type": 0,
-      "api": "https://www.neenl.com/api.php/provide/vod/at/xml",
+      "api": "https://www.mgtv.one/api.php/provide/vod/at/xml",
+      "playUrl": "https://jx.renrenmi.cc/?url=",
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "剧情片",
+        "战争片",
+        "恐怖片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "其它剧",
+        "综艺",
+        "动漫"
+      ]
+    },
+
+{
+      "key": "核桃影视",
+      "name": "核桃影视",
+      "type": 0,
+      "api": "http://tv.hetaoys.vip/api.php/provide/vod/at/xml",
+      "playUrl": ""
+    },
+{
+            "key": "电影牛",
+            "name": "电影牛",
+            "type": 0,
+            "api": "https://www.dianyingn.cc/api.php/provide/vod/at/xml/",
+            "playUrl": "",
+            "categories": [
+        "电影",
+        "电视剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "剧情片",
+        "战争片",
+        "恐怖片",
+        "纪录片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "其他剧",
+        "综艺",
+        "动漫"   
+            ]
+        },
+{
+      "key": "初心影视",
+      "name": "初心影视",
+      "type": 0,
+      "api": "https://www.18mv.club/api.php/provide/vod/at/xml",
       "playUrl": "https://jx.renrenmi.cc/?url="
     },
-
 {
-            "key": "瓜皮TV",
-            "name": "瓜皮TV",
-            "type": 0,
-            "api": "http://www.dijiaxia.com/api.php/provide/vod/at/xml",
-            "playUrl": ""
-        },
-
-{
-      "key": "饭团影院",
-      "name": "饭团影院",
+      "key": "疯狂看TV",
+      "name": "疯狂看TV",
       "type": 0,
-      "api": "http://fantuan.wkfile.com/api.php/provide/vod/at/xml/"
+      "api": "http://tv.fkkdy.vip/api.php/provide/vod/at/xml",
+      "playUrl": "https://jx.renrenmi.cc/?url="
     },
 {
-            "key": "虾米资源",
-            "name": "虾米资源",
-            "type": 0,
-            "api": "https://zy.xmflv.vip/api.php/provide/vod/at/xml",
-            "playUrl": ""
-        },
+      "key": "艾特影视",
+      "name": "艾特影视",
+      "type": 0,
+      "api": "https://www.aitee.cc/api.php/provide/vod/at/xml",
+      "playUrl": "https://jx.renrenmi.cc/?url="
+    },
+{
+      "key": "天空影视",
+      "name": "天空影视",
+      "type": 0,
+      "api": "https://www.tkys.tv/api.php/provide/vod/at/xml",
+      "playUrl": "https://jx.renrenmi.cc/?url="
+    },
+{
+      "key": "侦探影视",
+      "name": "侦探影视",
+      "type": 0,
+      "api": "http://ys.huangguay.com/api.php/provide/vod/at/xml",
+      "playUrl": ""
+    },
+
+{
+      "key": "星空影视",
+      "name": "星空影视",
+      "type": 0,
+      "api": "https://xkys.tv/api.php/provide/vod/at/xml",
+      "playUrl": ""
+    },
 {
             "key": "2A资源",
             "name": "2A资源",
@@ -402,6 +639,34 @@
       "api": "http://api.diliktv.xyz/api.php/provide/vod/?ac=list"
     },
 {
+      "key": "蜗牛看鸭",
+      "name": "蜗牛看鸭",
+      "type": 0,
+      "api": "http://movie.96keji.cn/api.php/provide/vod/at/xml",
+      "playUrl": ""
+    },
+{
+            "key": "瓜皮TV",
+            "name": "瓜皮TV",
+            "type": 0,
+            "api": "http://www.dijiaxia.com/api.php/provide/vod/at/xml",
+            "playUrl": ""
+        },
+{
+            "key": "虾米资源",
+            "name": "虾米资源",
+            "type": 0,
+            "api": "https://zy.xmflv.vip/api.php/provide/vod/at/xml",
+            "playUrl": ""
+        },
+
+{
+      "key": "饭团影院",
+      "name": "饭团影院",
+      "type": 0,
+      "api": "http://fantuan.wkfile.com/api.php/provide/vod/at/xml/"
+    },
+{
       "key": "蘑菇资源",
       "name": "蘑菇资源",
       "type": 0,
@@ -430,70 +695,7 @@
         "综艺",
         "动漫"
       ]
-    },
-
-
-
-
-
-
-
-{"key":"csp_appys_xiaogui_one影视", "name":"one影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_one影视"},
-
-
-
-{"key":"csp_appys_xiaogui_迪迪影院", "name":"迪迪影院(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_迪迪影院"},
-
-{"key":"csp_appys_xiaogui_毒舌电影", "name":"毒舌电影(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_毒舌电影"},
-
-{"key":"csp_appys_xiaogui_大师兄", "name":"大师兄(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_大师兄"},
-
-
-{"key":"csp_appys_xiaogui_火箭影视", "name":"火箭影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_火箭影视"},
-{"key":"csp_appys_xiaogui_海绵影视", "name":"海绵影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_海绵影视"},
-
-{"key":"csp_appys_xiaogui_抹茶猪", "name":"抹茶猪(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_抹茶猪"},
-
-{"key":"csp_appys_xiaogui_双十电影", "name":"双十电影(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_双十电影"},
-
-{"key":"csp_appys_xiaogui_天空影视", "name":"天空影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_天空影视"},
-{"key":"csp_appys_xiaogui_糖果影视", "name":"糖果影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_糖果影视"},
-
-
-{"key":"csp_appys_xiaogui_雪人影视", "name":"雪人影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_雪人影视"},
-
-
-{"key":"csp_appys_xiaogui_追剧达人", "name":"追剧达人(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_追剧达人"},
-
-{"key":"csp_appys_v1_80K影视", "name":"80K影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"v1_80K影视"},
-
-
-
-{"key":"csp_appys_v1_艾特影视", "name":"艾特影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"v1_艾特影视"},
-
-
-{"key":"csp_appys_v1_初心影视", "name":"初心影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"v1_初心影视"},
-
-
-{"key":"csp_appys_v1_二狗电影", "name":"二狗电影(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"v1_二狗电影"},
-{"key":"csp_appys_v1_饭后电影", "name":"饭后电影(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"v1_饭后电影"},
-
-{"key":"csp_appys_v1_疯狂看", "name":"疯狂看(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"v1_疯狂看"},
-
-
-{"key":"csp_appys_v1_乐看视频", "name":"乐看视频(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"v1_乐看视频"},
-
-{"key":"csp_appys_v1_喵乐影视", "name":"喵乐影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"v1_喵乐影视"},
-
-{"key":"csp_appys_v1_南府影视", "name":"南府影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"v1_南府影视"},
-
-{"key":"csp_appys_v1_手指影视", "name":"手指影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"v1_手指影视"},
-
-
-
-{"key":"csp_appys_iptv_核桃影视", "name":"核桃影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"iptv_核桃影视"},
-{"key":"csp_appys_iptv_冷月TV", "name":"冷月TV(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"iptv_冷月TV"}
-
+    }
 
 ],
 "lives": [
@@ -1023,25 +1225,27 @@
       "url":"https://jx.ysgc.xyz/?url="
     }, 
     {
-      "name": "星空",
-      "url": "http://60jx.com/?url="
-    }, 
+      "name": "乐喵",
+      "url": "http://jx.hao-zsj.cn/vip/?url="
+    },
     {
       "name": "虾米",
       "url": "https://jx.xmflv.com/?url="
     },
     {
+      "name": "星空",
+      "url": "http://60jx.com/?url="
+    }, 
+    {
       "name": "灵智云",
       "url": "https://jiexi.linzhiyuan.xyz/jiexi/?url="
     },
-    {
-      "name": "乐喵",
-      "url": "http://jx.hao-zsj.cn/vip/?url="
-    },
+    
     {
       "name": "爱跟",
       "url": "https://vip.2ktvb.com/player/?url="
     },
+    
     {
      "name": "Json.VodJX",
      "url": "http://admin.vodjx.top/json.php?url=",
@@ -1055,7 +1259,10 @@
       "name": "VodJX2",
       "url": "https://jx.vodjx.top/jiexi.php?url="
     },
-   
+    {
+      "name": "追剧达人",
+      "url": "https://vip123kan.vip/m3u8.php?url="
+    },
     {
       "name": "老板",
       "url": "https://vip.laobandq.com/jiexi.php?url="
